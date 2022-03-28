@@ -1,0 +1,200 @@
+@charset "ISO-8859-1";@charset "ISO-8859-1";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cedarville Cursive');
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+}
+
+header {
+	width: 100%;
+	height: 100px;
+	background: #5DADE2;
+}
+
+.logo{
+	width: 30%;
+	float: left;
+	text-align: left;
+	line-height: 100px;
+}
+
+.logo a{
+	text-decoration: none;
+	font-size: 30px;
+	 font-family: 'Cedarville Cursive';
+	color: white;
+}
+
+nav {
+	float: right;
+	line-height: 100px;
+}
+
+nav a {
+	text-decoration: none;
+	font-family: 'Montserrat';
+	letter-spacing: 4px;
+	font-size: 20px;
+	color: white;
+	padding: 36px 10px;
+	margin:0 1px;
+}
+
+nav a:hover {
+	background: purple;
+	color: gray;
+	font-weight: 100;
+	transition: 0.25s ease;
+}
+
+
+.content{
+	width: 100%;
+	height: 1700px;
+	position: relative;
+	background-color: white;
+	top: 500px;
+}
+
+.content1{
+	width: 100%;
+	height: 260px;
+	position: relative;
+	background-color: white;
+	top: 300px;
+	right: 140px;
+	color: #54e454;
+}
+
+.content2{
+	width: 100%;
+	height: 260px;
+	position: relative;
+	background-color: white;
+	top: 300px;
+	right: 140px;
+	color: #ff5b5b;
+}
+
+
+.content h2{
+	font-size: 40px;
+	margin: 0;
+	padding-top: 30px;
+}
+
+.content p{
+	padding: 2% 0;
+	line-height: 35px;
+	text-align: justify;
+}
+
+.styled-table {
+font-family: 'Montserrat';
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.styled-table thead tr {
+font-family: 'Montserrat';
+    background-color: #5DADE2;
+    color: #ffffff;
+    text-align: left;
+}
+.styled-table th,
+.styled-table td {
+font-family: 'Montserrat';
+    padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+font-family: 'Montserrat';
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+font-family: 'Montserrat';
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+font-family: 'Montserrat';
+    border-bottom: 2px solid #5DADE2;
+}
+
+.styled-table tbody tr.active-row {
+font-family: 'Montserrat';
+    font-weight: bold;
+    color: #5DADE2;
+}
+
+	/*About Us*/
+
+.portrait { 
+	position: relative; 
+	width: 250px; 
+	height: 250px; 
+	overflow: hidden; 
+	border-radius: 50%;
+	 } 
+	 
+.portrait img { 
+	width: 100%; 
+	height: auto; 
+	}
+	
+.landscape { 
+	display: inline-block; 
+	position: relative; 
+	width: 250px; 
+	height: 250px; 
+	overflow: hidden; 
+	border-radius: 50%; }
+	
+.landscape img { 
+	width: auto; 
+	height: 100%; 
+	margin-left: -50px; }
+
+.profb {
+	border: 1px solid black;
+	margin-top: 50px;
+	margin-bottom: 100px;
+	margin-right: 50px;
+	margin-left: 50px;
+	border-radius: 10px;
+	padding: 20px;
+	display: flex;
+}
+
+.aboutme{
+	width: 650px;
+	flex: 0, 0 150px;
+	margin-left: 100px;
+	margin-top: -20px;
+	text-align: justify;
+}
+
+.spacing {
+	width: 100%;
+	height: 30px;
+	position: relative;
+	background-color: white;
+	top: 22cm; /*825 px. idk if i should change big numebrs to cm lawl*/
+}
+

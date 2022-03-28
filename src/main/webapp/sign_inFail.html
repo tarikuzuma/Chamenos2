@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Sign-in</title>
+<link rel="stylesheet" href="register.css">
+<link rel="stylesheet" href="sign_styles.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class = "box-area">
+	<header>
+		<div class = "wrapper">
+			<div class = "logo">
+				<a href = "home.html"> Chamenos </a>
+			</div>
+			
+			<nav>
+				<a href ="home.html">Home</a>
+				<a href ="sign_in.html">Sign-in</a>
+				<a href = "register.html">Register</a>
+			</nav>
+		</div>
+	</header>
+        <form action = "Login" method = "get">
+        <h3>Sign-in</h3>
+
+        <label for="email">Email</label>
+        <input type="email" placeholder="Email" id="email" name = "email" required>
+        
+        <label for="pnumber">Phone Number</label>
+        <input type="tel" placeholder="Phone Number" id="pnumber" name = "pnumber" required>
+
+		<b style="color:red">The Email or Phone Number Errored</b>
+		
+        <input type = "submit" value = "Sign-in">
+        
+    </form>
+	
+</div>
+</body>
+</html>

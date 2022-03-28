@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Registration</title>
+<link rel="stylesheet" href="styles_reg.css">
+<link rel="stylesheet" href="register.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class = "box-area">
+	<header>
+		<div class = "wrapper">
+			<div class = "logo">
+				<a href = "home.html"> Chamenos </a>
+			</div>
+			
+			<nav>
+				<a href ="home.html">Home</a>
+				<a href ="sign_in.html">Sign-in</a>
+				<a href = "register.html">Register</a>
+			</nav>
+		</div>
+	</header>
+
+	
+	 <form action = "Register" method = "get">
+        <h3>Registration Form</h3>
+
+        <label for="FullName">Full Name</label>
+        <input type="text" placeholder="Full Name" id="name" name = "name" required>
+
+        <label for="email">Email</label>
+        <input type="email" placeholder="Email" id="email" name = "name" required>
+        
+        <label for="pnumber">Phone Number</label>
+        <input type="tel" placeholder="Phone Number" id="pnumber" name = "pnumber" required>
+
+        <label for ="age">Age</label>
+        <select name="age" id = "age" required>
+			<option value="belowAge">Below 18</option>
+			<option value= "aboveAge">Above 18</option>
+		</select>
+        <b style="color:red">Registration Failed</b>
+        <input type = "submit" value = "Register">
+        
+    </form>
+    
+    <div class = "spacing"></div>
+</div>
+</body>
+</html>
