@@ -134,10 +134,3 @@ SET SQL_SAFE_UPDATES = 0;
 UPDATE vp SET total = total + 1 
 WHERE vp = 'Ong'; /*Sweet Spot!*/
 
-/*Manual Data Finding*/
-SELECT * FROM log_in WHERE 
-email ='edwinjrgumba@gmail.com'
-AND pnumber = '09561894227';
-
-select *from log_in where email='edwinjrgumba@gmail.com'
- and pnumber = '09561894227';
